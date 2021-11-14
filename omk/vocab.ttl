@@ -6,10 +6,10 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix film: <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> .
-@prefix act: <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> .
+@prefix film: <https://github.com/julienpan/THYP_21-22/blob/master/omk/vocab.ttl> .
+@prefix act: <https://github.com/julienpan/THYP_21-22/blob/master/omk/vocab.ttl> .
 
-<https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> a owl:Ontology ;
+<https://github.com/julienpan/THYP_21-22/blob/master/omk/vocab.ttl> a owl:Ontology ;
     dcterms:title "Application web et mobile cinéma" .
 
 

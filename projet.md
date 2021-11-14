@@ -28,6 +28,5 @@ En ce qui concerne la base de données, j'utilise Firebase qui va me permettre d
 
 ## Les fonctionnalités
 
-Un utilisateur de l'application pourra visualiser le contenu et avoir des recommandations de films, séries ... en ayant préalable fait l'inscription utilisateur.
-Les recommandations se font en fonction des préférences utilisateurs et des notes attribuées aux films ...
+Un utilisateur de l'application pourra visualiser le contenu et en savoir plus sur les films et séries ainsi que ses acteurs et sa production.
 

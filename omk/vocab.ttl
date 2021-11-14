@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix film: <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> .
+@prefix act: <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> .
+
+<https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> a owl:Ontology ;
+    dcterms:title "Application web et mobile cinéma" .
+
+
+film:films a rdfs:Class ;
+    rdfs:label "films" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" ;
+
+film:trailer a rdf:Property ;
+    rdfs:label "trailer" ;
+    rdfs:comment "Extrait du film" ;
+    rdfs:domain o:Resource ;
+    rdfs:isDefinedBy film: . ;
+
+film:synopsis a rdf:Property ;
+    rdfs:label "synopsis" ;
+    rdfs:domain o:Resource ;
+    rdfs:isDefinedBy film: . ;
+
+act:acteur a rdfs:Class ;
+    rdfs:label "acteur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" ;
+    rdfs:isDefinedBy https://dbpedia.org/ontology/Actor ;
+
+act:nomActeur a rdf:Property ;
+    rdfs:label "Nom de l`acteur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" ;
+
+act:description a rdf:Property ;
+    rdfs:label "description" ;
+    rdfs:comment "Presentation de l`acteur" ;
+    rdfs:domain o:Resource ;
+    owl: sameAs foaf:Person ;
+    vs:term_status "experimental" ;

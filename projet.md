@@ -2,9 +2,7 @@
 
 ## Introduction
 
-L'entreprise Netflix qui est une entreprise multinationale américaine créée à Scotts Valley en 1997 par Reed Hastings et Marc Randolph appartenant au secteur d'activité des industries créatives connu depuis le temps. Leur platforme Netflix est un service de streaming qui propose une vaste sélection de séries TV, films, animes, documentaires et autres programmes primés sur des milliers d'appareils connectés à Internet.
-
-Le projet va être la production d'une application Web de Netflix qui va présenter les séries, les films, les auteurs etc....
+Le projet va être la production d'une application Web pour visualiser des extraits de films et séries. C'est un moyen de recherche qui va présenter les séries, les films, les auteurs etc....
 
 ### Représentation d'un(e) auteur
  

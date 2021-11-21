@@ -1,0 +1,123 @@
+{
+    "o:label": "Film",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Title",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasTitle",
+            "label": "a comme titre"
+        },
+        {
+            "o:alternate_label": "Synopsis",
+            "o:alternate_comment": "R\u00e9sum\u00e9 du film",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasSynopsis",
+            "label": "a comme synopsis"
+        },
+        {
+            "o:alternate_label": "Producer",
+            "o:alternate_comment": "Producteur(s) du film",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasProducer",
+            "label": "a comme producteur"
+        },
+        {
+            "o:alternate_label": "Genre",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasGenre",
+            "label": "a comme genre"
+        },
+        {
+            "o:alternate_label": "Trailer",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasTrailer",
+            "label": "a comme extrait video"
+        },
+        {
+            "o:alternate_label": "Duration",
+            "o:alternate_comment": "La dur\u00e9e du film",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasDuration",
+            "label": "a comme duree"
+        },
+        {
+            "o:alternate_label": "Actors",
+            "o:alternate_comment": "Les acteurs ou actrices du film",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasActors",
+            "label": "a comme acteur"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+        "vocabulary_label": "Films",
+        "local_name": "Films",
+        "label": "Oeuvre cinematographique"
+    }
+}

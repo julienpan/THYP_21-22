@@ -71,14 +71,17 @@ film:hasDuration a rdf:Property ;
 film:hasFirstname a rdf:Property ;
     rdfs:label "a comme prenom" ;
     rdfs:domain o:Resource ;
+    owl:sameAs foaf:firstname ;
     vs:term_status "experimental" .
 
 film:hasLastname a rdf:Property ;
     rdfs:label "a comme nom" ;
     rdfs:domain o:Resource ;
+    owl:sameAs foaf:lastname ;
     vs:term_status "experimental" .
 
 film:hasAge a rdf:Property ;
     rdfs:label "a comme age" ;
     rdfs:domain o:Ressource ;
+    owl:sameAs foaf:age ;
     vs:term_status "experimental" .

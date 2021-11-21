@@ -1,0 +1,75 @@
+{
+    "o:label": "Actor",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasLastname",
+            "label": "a comme nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasFirstname",
+            "label": "a comme prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "Films",
+            "local_name": "hasAge",
+            "label": "a comme age"
+        },
+        {
+            "o:alternate_label": "Photo de profil",
+            "o:alternate_comment": "Photo de l'acteur ou actrice",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "depiction",
+            "label": "depiction"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/cinemaApp\/blob\/master\/vocab.ttl",
+        "vocabulary_label": "Films",
+        "local_name": "Films",
+        "label": "Oeuvre cinematographique"
+    }
+}

@@ -9,7 +9,7 @@
 
 @prefix film: <https://github.com/julienpan/cinemaApp/blob/master/onto.ttl#> .
 
-<https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> a owl:Ontology ;
+<https://github.com/julienpan/cinemaApp/blob/master/onto.ttl> a owl:Ontology ;
     dcterms:title "Application Cinéma" .
 
 

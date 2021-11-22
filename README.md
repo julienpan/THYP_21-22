@@ -1,9 +1,9 @@
 # THYP_21-22
 
-- https://omeka-s/api/item/4
-- https://omeka-s/api/item/5
-- https://omeka-s/api/item/6
-- https://omeka-s/api/item/7
+- https://localhost:8888/omeka-s/api/item/4
+- https://localhost:8888/omeka-s/api/item/5
+- https://localhost:8888/omeka-s/api/item/6
+- https://localhost:8888/omeka-s/api/item/7
 
 
 <!-- http://omeka.mysite.com/api/items/xxx -->

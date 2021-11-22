@@ -1,10 +1,10 @@
 # THYP_21-22
 
-omeka-s/admin/item/4
-omeka-s/admin/item/5
+omeka-s/api/item/4
+omeka-s/api/item/5
 
-omeka-s/admin/item/6
-omeka-s/admin/item/7
+omeka-s/api/item/6
+omeka-s/api/item/7
 
 
 <!-- http://omeka.mysite.com/api/items/xxx -->

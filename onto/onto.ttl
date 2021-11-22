@@ -7,7 +7,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dbpedia-owl: <http://dbpedia.org/ontology#/> .
 
-@prefix film: <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl#> .
+@prefix film: <https://github.com/julienpan/cinemaApp/blob/master/onto.ttl#> .
 
 <https://github.com/julienpan/cinemaApp/blob/master/vocab.ttl> a owl:Ontology ;
     dcterms:title "Application Cinéma" .

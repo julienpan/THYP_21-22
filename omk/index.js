@@ -1,6 +1,7 @@
-var resource_templates_url = "http://localhost:8888/omeka-s/api/resource_templates";
-
-var items_url = "http://localhost:8888/omeka-s/api/items";
+// var resource_templates_url = "http://localhost:8888/omeka-s/api/resource_templates";
+var resource_templates_url = "./data/resource_templates.json";
+// var items_url = "http://localhost:8888/omeka-s/api/items";
+var items_url = "./data/items.json";
 
 
 // function getInfo(info) {
